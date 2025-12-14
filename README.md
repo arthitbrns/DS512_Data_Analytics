@@ -1,6 +1,6 @@
-Credit Card Approval Analysis and Predictive Modeling
+<div align="center"><b>Credit Card Approval Analysis and Predictive Modeling</b></div>
 
-(การวิเคราะห์และการสร้างแบบจำลองคาดการณ์การอนุมัติบัตรเครดิต)
+<div align="center">(การวิเคราะห์และการสร้างแบบจำลองคาดการณ์การอนุมัติบัตรเครดิต)</div>
 
 1. Introduction
 	สถาบันการเงินอนุมัติ/ปฏิเสธการสมัครบัตรเครดิต โดยพิจารณาจากข้อมูลผู้สมัคร โดยกระบวนการพิจารณาอาจใช้เวลานานและขึ้นอยู่กับดุลยพินิจของนักวิเคราะห์สินเชื่อ ซึ่งอาจนำไปสู่ความเสี่ยงหรือการสูญเสียโอกาสทางธุรกิจ
@@ -11,7 +11,7 @@ Credit Card Approval Analysis and Predictive Modeling
  
 <img width="825" height="424" alt="image" src="https://github.com/user-attachments/assets/300f5d51-e287-4f8f-8013-fa949a0d7c10" />
 
-ภาพที่ 1 Data Analytic Framework
+<div align="center">ภาพที่ 1 Data Analytic Framework</div>
 
 2. Data Analytics Methodology
 2.1 Analytical Questions 
@@ -23,11 +23,11 @@ Credit Card Approval Analysis and Predictive Modeling
 
  <img width="1050" height="297" alt="image" src="https://github.com/user-attachments/assets/b895e107-1171-4fdd-827d-76bcd7677a6a" />
 
-ภาพที่ 2 ตัวอย่าง Data Set
+<div align="center">ภาพที่ 2 ตัวอย่าง Data Set</div>
 
 <img width="1050" height="413" alt="image" src="https://github.com/user-attachments/assets/5c67f152-6c18-4e1a-bc9e-e1707f2d8458" />
  
-ภาพที่ 3 ตัวอย่าง Data Dictionary
+<div align="center">ภาพที่ 3 ตัวอย่าง Data Dictionary</div>
 
 2.3 Data cleaning and preprocessing 
 เนื่องจากเป็น "Clean Data" จะเน้นการตรวจสอบขั้นสุดท้าย การจัดการกับค่าที่หายไป (Missing Values) ที่ยังอาจมีอยู่
@@ -81,11 +81,13 @@ ZipCode and StateName = 0.302
 ผลจากการวิเคราะห์ความสัมพันธ์ของฟีเจอร์ (Correlation Analysis) เป็นไปตามสมมติฐานที่ว่ามีกลุ่มลูกค้า(Segments) ที่มีความเสี่ยงสูง/ต่ำ ที่แตกต่างกันชัดเจนหรือไม่ กล่าวโดยสรุปคือ ค่าเฉลี่ย Credit Score ของผู้ที่ได้รับการอนุมิติ แตกต่าง จากผู้ที่ไม่ได้รับการอนุมัติ
 
 4. Findings and Business Insights
+
 คุณลักษณะหลักที่ขับเคลื่อนผลการอนุมัติบัตรเครดิต (Feature Importance) คือ ปัจจัยด้าน ประวัติความเสี่ยง (PriorDefault) และ ความมั่นคง (Employed, CreditScore, YearsEmployed) โดยสามารถ ระบุกลุ่มลูกค้าที่มีความเสี่ยงสูง/ต่ำ ที่ชัดเจนได้โดย Credit Score ซึ่งเป็นปัจจัยขับเคลื่อนหลัก (Primary Driver) ในกระบวนการอนุมัติ ทำให้เกิดการแบ่งกลุ่มลูกค้าเป็นสองกลุ่มได้อย่างมีประสิทธิภาพ 
 ดังนั้นแนวโน้มและรูปแบบคุณลักษณะของผู้สมัครที่ถูกอนุมัติ/ปฏิเสธ คือ ประวัติความเสี่ยง (PriorDefault) และ ความมั่นคง (Employed, CreditScore, YearsEmployed) เป็นคุณลักษณะหลักที่ขับเคลื่อนผลการตัดสินใจอนุมัติบัตรเครดิต ซึ่งตอบคำถามเชิงวิเคราะห์ที่ว่า "คุณลักษณะใดของผู้สมัครมีความสัมพันธ์กับการอนุมัติมากที่สุด"
 จากการเปรียบเทียบ Credit Score (CreditScore) ระหว่างผู้ที่ได้รับการอนุมัติ (Approved=1) และผู้ที่ไม่ได้รับการอนุมัติ (Approved=0) ค่าเฉลี่ย Credit Score ของผู้ที่ได้รับการอนุมิติ แตกต่าง จากผู้ที่ไม่ได้รับการอนุมัติ ซึ่งตอบคำถามเชิงวิเคราะห์ที่ว่า “มีกลุ่มลูกค้า (Segments) ที่มีความเสี่ยงสูง/ต่ำ ที่แตกต่างกันชัดเจนหรือไม่”
 
 5. Conclusion and Recommendation
+
 จากการวิเคราะห์ที่กล่าวมา จะทำให้เราทราบถึงปัจจัยสำคัญที่นำมาวิเคราะห์การอนุมัติสินเชื่อที่เหมาะสม ทำให้ลดการเกิดหนี้เสีย (ลดความเสี่ยง) เนื่องจากมีความแม่นยำในการคัดกรองมากขึ้น และเพิ่มโอกาสในการอนุมัติลูกค้าที่มีคุณภาพเร็วขึ้น (เพิ่มกำไร) และผู้สมัครได้รับผลการตัดสินใจรวดเร็วขึ้น ทำให้ประสบการณ์การใช้บริการดีขึ้น
 
 
