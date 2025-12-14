@@ -23,7 +23,7 @@ Credit Card Approval Analysis and Predictive Modeling
 
  <img width="1050" height="297" alt="image" src="https://github.com/user-attachments/assets/b895e107-1171-4fdd-827d-76bcd7677a6a" />
 
-ภาพที่ 2 ตัวอย่าง Data Set
+																					ภาพที่ 2 ตัวอย่าง Data Set
 
 <img width="1050" height="413" alt="image" src="https://github.com/user-attachments/assets/5c67f152-6c18-4e1a-bc9e-e1707f2d8458" />
  
