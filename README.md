@@ -10,6 +10,7 @@ Credit Card Approval Analysis and Predictive Modeling
 การวิเคราะห์ปัจจัยที่สำคัญเพื่อค้นหาคุณลักษณะที่สำคัญของผู้สมัครมีความสัมพันธ์กับการอนุมัติมากที่สุด เพื่อลดความเสี่ยงทางการเงิน (อัตราการผิดนัดชำระหนี้ - Default Rate) โดยสนใจในคุณลักษณะใดของผู้สมัคร (เช่น อายุ, รายได้, ประเภทงาน) ที่มีความสัมพันธ์กับการอนุมัติมากที่สุด และเหมาะสมที่จะอนุมัติสินเชื่อมากที่สุด โดยแนวทางการวิเคราะห์จะดำเนินตาม Data Analysis Framework ต่อไปนี้
  
 <img width="825" height="424" alt="image" src="https://github.com/user-attachments/assets/300f5d51-e287-4f8f-8013-fa949a0d7c10" />
+
 ภาพที่ 1 Data Analytic Framework
 
 2. Data Analytics Methodology
