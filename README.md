@@ -80,7 +80,7 @@ ZipCode and StateName = 0.302
 ภาพที่ 7 ค่าสัมประสิทธิ์สหสัมพันธ์แบบเพียร์สัน (Pearson Correlation) ที่มีค่า มากกว่า 0.3</div>
 
 <div align="center">
-<img width="940" height="370" alt="image" src="https://github.com/user-attachments/assets/e0646b56-eddd-4cbc-b616-b99075c95681" />
+<img width="769" height="300" alt="image" src="https://github.com/user-attachments/assets/7975ab0a-4732-4f66-8169-b2a9a30c476c" />
 
 ภาพที่ 8 ค่าสัมประสิทธิ์สหสัมพันธ์แบบเพียร์สัน (Pearson Correlation) ที่มีสัมพันธ์กับการอนุมัติสินเชื่อ </div>
 
