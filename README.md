@@ -90,7 +90,7 @@ ZipCode and StateName = 0.302
 การเปรียบเทียบ Credit Score (CreditScore) ระหว่างผู้ที่ได้รับการอนุมัติ (Approved=1) และผู้ที่ไม่ได้รับการอนุมัติ (Approved=0) สามารถทำ t-test ได้ เนื่องจาก CreditScore เป็นตัวแปรเชิงปริมาณ(Numerical/ Continuous) และเราต้องการเปรียบเทียบค่าเฉลี่ยของตัวแปรนี้ระหว่างสองกลุ่มอิสระ(Approved=1 และ Approved=0) การใช้ Independent Samples T-test (การทดสอบทีสำหรับกลุ่มตัวอย่างอิสระ) จึงเป็นวิธีที่เหมาะสมที่สุด
 
 <div align="center">
- <img width="940" height="382" alt="image" src="https://github.com/user-attachments/assets/c4136c4b-05b7-4a37-af2f-a014b08700a0" />
+<img width="758" height="339" alt="image" src="https://github.com/user-attachments/assets/0af833c5-0aee-481a-bdb2-b8016ccdaa53" />
 
 ภาพที่ 9 Independent Samples T-test </div>
 
